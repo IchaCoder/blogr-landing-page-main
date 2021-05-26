@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-background{
+    background-image: url("images/bg-pattern-intro.svg");
+    width: 200px;
+}
+
+.nav{
+    margin-left: 130px;
+    
+}
+nav{
+    background-image: url('images/bg-pattern-intro.svg');
+    
+}
+header{
+    
+    background-image: url('images/bg-pattern-intro.svg');
+    background-size: cover;
+    background-color: hsl(356, 100%, 66%);
+    height: 450px;
+    background-position: center;
+    border-bottom-left-radius: 80px;
+    background-size: 900px 1000px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.navbar{
+    background-color: transparent;
+    border: none;
+    
+}
+#logosvg{
+    margin-left: 100px;
+}
+.btn{
+    border: none;
+}
+.btn:hover{
+    background-color: transparent !important;
+}
+
+.navbar-header, .nav{
+    margin-top: 40px;
+}
+.navbar-right{
+    margin-right: 50px;
+    
+}
+.btn-two{
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 20px 10px 20px;
+    display: grid;
+    place-items:center ;
+}
+.btn-two:hover{
+    background-color: hsl(355, 100%, 74%);
+   
+}
+.btn-one a{
+    color: white;
+}
+.btn-two a{
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+}
+.btn-two a:hover, .btn-two:hover{
+    color: #fff;
+    font-weight: bold;
+    background-color: hsl(355, 100%, 74%);
+}
+.login-btns{
+    margin: 10px;
+    display: inline-block;
+}
+.login-btns a{
+    text-decoration: none;
+   
+}
+.menu-tog{
+    color: #fff;
+    opacity: 60%;
+    cursor: pointer;
+   
+}
+.menu-tog:hover{
+    opacity: 100%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.color-two:hover{
+    color: #222;
+    font-weight: bold;
+}
+.dropdown-menu{
+    border: none;
+}
+hr{
+    display: none;
+}
+.show-btn{
+    display: none;
+}
+.next-btn{
+    display: none;
+}
+.footer-body{
+    color: #fff;
+    
+}
+
+.footer-body h1{
+    margin-left: 90px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: lighter;
+}
+.footer-body h4{
+   opacity: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-one{
+    color: hsl(356, 100%, 66%);
+    padding: 10px;
+    background-color: #fff;
+    width: 130px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    flex: 1;
+    border: none;
+    margin: 5px;
+}
+.header-one:hover{
+    background-color: hsl(355, 100%, 74%);
+    color: #f4f4f4;
+}
+.header-two:hover{
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+}
+.header-two{
+    color: #fff;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    flex: 1;
+    margin: 5px;
+}
+.header-btn{
+   display: flex;
+    width: 250px;
+    margin:30px auto auto auto;
+}
+.body-one h2{
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.heading{
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+}
+.table, .row-two-two{
+    letter-spacing: 1px;
+}
+.body-copy{
+    color: hsl(207, 13%, 34%);
+}
+.body-copy{
+    letter-spacing: 1px;
+}
+.container-two{
+    height: 550px;
+    width: 100%;
+    border-radius: 0 100px 0 100px;
+    background-color: hsl(237, 17%, 21%);
+    
+}
+.body-two{
+    margin-top: 250px;
+    position: relative;
+}
+.copy-two{
+    color: #f4f4f4; 
+}
+
+
+img[src = "images/illustration-laptop-mobile.svg"]{
+    display: none;
+}
+.row-three-three{
+    margin-top: 100px;
+    order: 2;
+}
+.row{
+    background-color: hsl(240, 10%, 16%);
+    padding: 35px;
+    border-top-right-radius: 100px;
+    margin-top: 50px;
+    
+}
+.col-sm-3 ul{
+    list-style: none;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.col-sm-3 ul a{
+    color: hsl(240, 2%, 79%);
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.col-sm-3 img{
+    margin-top: 30px;
+}
+@media screen and (max-width:780px) {
+    .footer-body h1{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .collapse{
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        width: 95%;
+        border-radius: 10px 0 0px 10px;
+        border-top: none;
+    }
+    .menu-tog{
+        color: #222;
+        opacity: 100%;
+        text-decoration: none;  
+        margin-left: 35%;
+    }
+    .btn-two{
+        border-radius: 30px;
+        background-color: hsl(353, 100%, 62%);
+        width: 120px;
+        display: grid;
+        place-items:center ; 
+        margin: auto;
+    }
+    .btn-one{
+        width: 120px;
+       font-weight: bold;
+        display: grid;
+        place-items:center ;
+        margin: auto auto 10px auto;
+    }
+    .btn-one a{
+        color: #222;
+    }
+    .btn-two a{
+        color: #fff;
+    }
+    header{
+        height: 500px;
+        border-bottom-left-radius: 80px;
+    }
+    
+    .dropdown-menu{
+        background-color: #f4f4f4 !important;
+        max-width:80% !important;
+        
+        padding: 10px;
+        
+    }
+   
+    .color-two{
+        color: #222;
+        margin-left: 90px !important;
+        text-align: right;
+    }
+    .nav{
+        margin-left: 0px;
+        
+    }
+    hr{
+        display: block;
+    }
+    .caret{
+        color: red;
+    }
+    #logosvg{
+        margin-left: 30px;
+    }
+    .footer-body h1{
+       text-align: center;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    .footer-body h4{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .row-two{
+        background-image: url('images/illustration-editor-mobile.svg');
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .row-two img{
+        visibility: hidden;
+    }
+    .table, .row-two-two{
+        text-align: center;
+    }
+    
+    .row-one-one img[src= "images/bg-pattern-circles.svg"]{
+        margin-left: -130px;
+        width: 600px;
+        height: 600px;
+        margin-top: -140px;
+        
+    }
+    .row-one-one img[src="images/illustration-phones.svg"]{
+        height: 400px;
+        width: 370px;
+        margin-left: -20px;
+        position: absolute;
+        top: -200px;
+    }
+    .row-two-two{
+        margin-top: -160px;
+        line-height: 25px;
+    }
+    
+    img[src = "images/illustration-laptop-desktop.svg"]{
+        display: none;
+    }
+    img[src = "images/illustration-laptop-mobile.svg"]{
+        display: block;
+        margin: 70px auto 0 -70px;
+    }
+    .row-three-three{
+        margin-top: 20px;
+    }
+    .col-sm-3 img{
+        margin-bottom: 50px;
+       
+    }
+    .row{
+        display: grid;
+        place-items: center;
+        
+    }
+}
+@media screen and (max-width:820px) {
+   
+    .nav{
+        margin-left: 0px;
+    }
+    .row-three-three{
+        text-align: center;
+    }
+}
+@media screen and (min-width:781px) {
+    .row-two{
+        order: 2;
+        position: absolute;
+        right: -130px;
+        top: 500px;
+        overflow: hidden;
+    }
+    .row-two img{
+        margin-left: 100px;
+        
+    }
+    .to-be-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .row-one{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .container-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        height: 420px;
+        border: solid 2px ;
+        margin-top: -70px;
+    }
+    .row-one-one img[src= "images/bg-pattern-circles.svg"]{
+        height: 550px;
+        width: 600px;
+        margin-left: -118%;
+        margin-top: -25%;
+        
+    }
+    .row-one-one img[src="images/illustration-phones.svg"]{
+        position: absolute;
+        top: -15%;
+        left: 0;
+    }
+   
+    .row-two-two{
+        order: 2;
+        margin-top: -300px;
+        margin-right: 100px;
+        line-height: 25px;
+    }
+    .container-three{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+       
+    }
+    img[src = "images/illustration-laptop-desktop.svg"]{
+        width: 500px;
+        height: 450px;
+        margin-left: -140px;
+    }
+}
