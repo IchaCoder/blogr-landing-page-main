@@ -13,3 +13,5 @@ W3schoool.com
 Code grepper
 And frontend mentor slack community.
 I would like to acknowledge Frontend mentor for providing this free template design for a challenge.
+
+Here is a working link: https://blogrspot.netlify.app/
