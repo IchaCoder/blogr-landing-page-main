@@ -2,7 +2,7 @@ With this design, users should be able to view different layouts according to th
 See hover states for all interruptions.
 
 Screenshots have been provided below for different screen sizes.
-
+<img src="images/icc.jpg" />
   
 
 Built with pure HTML and CSS, Twitter bootstraps and a little bit of Javascript.
